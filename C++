@@ -1,0 +1,204 @@
+C++ "Hello, World!" Program
+C++ "Hello World!" Program
+// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+Output
+Hello World!
+
+
+•  // Your First C++ Program
+
+In C++, any line starting with // is a comment. Comments are intended for the person reading the code to better understand the functionality of the program. It is completely ignored by the C++ compiler.
+•  #include <iostream>
+
+The #include is a preprocessor directive used to include files in our program. The above code is including the contents of the iostream file.
+
+This allows us to use cout in our program to print output on the screen.
+
+For now, just remember that we need to use #include <iostream> to use cout that allows us to print output on the screen.
+•  int main() {...}
+
+A valid C++ program must have the main() function. The curly braces indicate the start and the end of the function.
+
+The execution of code beings from this function.
+•  std::cout << "Hello World!";
+
+std::cout prints the content inside the quotation marks. It must be followed by << followed by the format string. In our example, "Hello World!" is the format string.
+
+Note: ; is used to indicate the end of a statement.
+•  return 0;
+
+The return 0; statement is the "Exit status" of the program. In simple terms, the program ends with this statement.
+
+C++ Program to Print Number Entered by User
+Example: Print Number Entered by User
+#include <iostream>
+using namespace std;
+
+int main() {    
+    int number;
+
+    cout << "Enter an integer: ";
+    cin >> number;
+
+    cout << "You entered " << number;    
+    return 0;
+}
+Output
+Enter an integer: 23
+You entered 23
+
+C++ Program to  do mathematical operator
+Example: Program to Add Two Integers
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    cout << "Enter two integers: ";
+    cin >> firstNumber >> secondNumber;
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Prints sum 
+    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
+
+    return 0;
+}
+Output
+Enter two integers: 4
+5
+4 + 5 = 9
+
+
+C++ Program to Find Quotient and Remainder
+In this program, the user is asked to enter two integers (divisor and dividend) and the quotient and the remainder of their division is computed.
+To compute quotient and remainder, both divisor and dividend should be integers.
+#include <iostream>
+using namespace std;
+
+int main()
+{    
+    int divisor, dividend, quotient, remainder;
+
+    cout << "Enter dividend: ";
+    cin >> dividend;
+
+    cout << "Enter divisor: ";
+    cin >> divisor;
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+
+    return 0;
+}
+Output
+Enter dividend: 13
+Enter divisor: 4
+Quotient = 3
+Remainder = 1
+The division operator / computes the quotient (either between float or integer variables).
+The modulus operator % computes the remainder when one integer is divided by another (modulus operator cannot be used for floating-type variables).
+
+C++ Program to Find Size of int, float, double and char in Your System
+To find the size of variable,  sizeof operator is used.
+sizeof(dataType);
+Example: Find Size of a Variable
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+Output
+Size of char: 1 byte
+Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+C++ Program to Swap Two Numbers
+Example 1: Swap Numbers (Using Temporary Variable)
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 5, b = 10, temp;
+
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+Output
+Before swapping.
+a = 5, b = 10
+
+After swapping.
+a = 10, b = 5
+To perform swapping in above example, three variables are used.
+The contents of the first variable is copied into the temp variable. Then, the contents of second variable is copied to the first variable.
+Finally, the contents of the temp variable is copied back to the second variable which completes the swapping process.
+You can also perform swapping using only two variables as below.
+________________________________________
+Example 2: Swap Numbers Without Using Temporary Variables
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int a = 5, b = 10;
+
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+The output of this program is the same as the first program above.
+Let us see how this program works:
+1.	Initially, a = 5 and b = 10.
+2.	Then, we add a and b and store it in a with the code a = a + b. This means a = 5 + 10. So, a = 15 now.
+3.	Then we use the code b = a - b. This means b = 15 - 10. So, b = 5 now.
+4.	Again, we use the code a = a - b. This means a = 15 - 5. So finally, a = 10.
+Hence, the numbers have been swapped.
+Note: We can use multiplication and division instead of addition and subtraction. However, this won't work if one of the numbers is 0.
+int a = 5, b = 10;
+
+// using multiplication and division for swapping
+a = a * b;    // a = 50
+b = a / b;    // b = 5
+a = a / b;    // a = 10
+
+
