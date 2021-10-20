@@ -1,0 +1,77 @@
+1. Which operator works only with integer variables?
+a) increment
+b) decrement
+c) both increment & decrement
+d) binary operator
+
+How many types are there in increment/decrement operator?
+a) 1
+b) 2
+c) 3
+d) 4
+
+3. Pick out the correct statement.
+a) Increment operator ++ adds 1 to its operand
+b) Increment operator ++ adds 2 to its operand
+c) Decrement operator ++ subtracts 1 to its operand
+d) Decrement operator ++ subtracts 3 to its operand
+
+4. #include <stdio.h> 
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int a = 21;
+        int c ;
+        c = a++;
+        cout << c;  
+        return 0;
+    }
+
+5.  #include <stdio.h> 
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5;
+        cout << ++x << --y << endl;
+        return 0;
+    }
+
+6.#include <stdio.h> 
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5, z;
+        x = ++x; y = --y;
+        z = x++ + y--;
+        cout << z;
+        return 0;
+    }
+
+7.#include <stdio.h> 
+    #include<iostream> 
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5, z;
+        x = ++x; y = --y;
+        z = x + ++x;
+        cout << z;
+        return 0;
+    }
+
+8.  #include <stdio.h> 
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int num1 = 5;
+        int num2 = 3;
+        int num3 = 2;
+        num1 = num2++;
+        num2 = --num3;
+        cout << num1 << num2 << num3;
+        return 0;
+    }
