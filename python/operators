@@ -1,0 +1,173 @@
+1. In the Python statement x = a + 5 – b:
+a and b are ________
+a + 5 - b is ________
+
+a)terms, a group
+b)operators, a statement
+c)operands, an expression
+d)operands, an equation
+
+02. Which is the correct operator for power(xy)?
+
+a)X^y
+b)X**y
+c)X^^y
+d)None of the mentioned
+
+03. What is the output of the following addition (+) operator
+a = [10, 20]
+b = a
+b += [30, 40]
+print(a)
+print(b)
+
+a)[10, 20, 30, 40]
+[10, 20, 30, 40]
+b)[10, 20]
+[10, 20, 30, 40]
+c)[10, 20, 10, 20]
+[10, 20, 30, 40]
+d)[10, 20]
+[30, 40]
+
+04. Which function overloads the >> operator?
+
+more()
+gt()
+ge()
+None of the above
+
+05. What is the value of the expression 100 / 25?
+
+4
+4.0
+0
+25
+
+
+06. Which one of these is floor division?
+//
+/
+%
+None of the above
+
+07. What is the output of the following assignment operator
+a = 10
+b = a -= 2
+print(b)
+
+a)8
+b)10
+c)Syntax Error
+d)No error but no output too
+
+08. Which operator is overloaded by the or() function?
+a)||
+b)|
+c)//
+d)/
+
+09. Should you use the == operator to determine whether objects of type float are equal?
+Nope, not a good idea.
+Sure! Go for it.
+
+10. What is the order of precedence in python?
+i) Parentheses
+ii) Exponential
+iii) Multiplication
+iv) Division
+v) Addition
+vi) Subtraction
+
+
+a)ii,i,iii,iv,v,vi
+b)ii,i,iv,iii,v,vi
+c)i,ii,iii,iv,vi,v
+d)i,ii,iii,iv,v,vi
+
+11. What is the output of the following code
+x = 6
+y = 2
+print(x ** y)
+print(x // y)
+
+a) 66
+   0
+b) 36
+   0
+c) 66
+   3
+d) 36
+   3
+
+12. What is the output of the following program :
+i = 0
+while i < 3:
+       print i
+       i++
+       print i+1
+       
+0 2 1 3 2 4
+0 1 2 3 4 5
+Error
+1 0 2 4 3 5
+
+13. Suppose the following statements are executed:
+a = 100
+b = 200
+
+What is the value of the expression a and b?
+True
+0
+False
+200
+100
+
+14. Operators with the same precedence are evaluated in which manner?
+Left to Right
+Right to Left
+Can’t say
+None of the mentioned
+
+15. Which of the following operators has the highest precedence?
+not
+&
+*
++
+
+16. Given a function that does not return any value, what value is shown when executed at the shell?
+int
+bool
+void
+None
+
+17. The function sqrt() from the math module computes the square root of a number. Will the highlighted line of code raise an exception?
+x = -100
+from math import sqrt
+x > 0 and sqrt(x)
+
+Yes
+No
+void
+None
+
+18. Which one of the following has the same precedence level?
+Addition and Subtraction
+Multiplication, Division and Addition
+Multiplication, Division, Addition and Subtraction
+Addition and Multiplication
+
+19. What is the output of the following code
+print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
+
+True True False True
+False True True True
+True True False True
+False True False True
+
+20. What is the output of the expression print(-18 // 4)
+-4
+-5
+4
+5
+
