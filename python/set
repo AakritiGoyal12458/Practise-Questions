@@ -1,0 +1,66 @@
+1. Does converting an object to a set maintain the object’s order?
+
+2. Check if a set a subset of another set
+
+4. Is a set a subset of itself?
+
+5. Check if a specific value exists in a set
+
+6. Check if a value is not in a set
+
+7. What is a set?
+
+8. What is the difference between a subset and a proper subset?
+
+9. Check if a set is a proper subset
+
+10. Add an element to a set
+
+11. Make a copy of a set
+
+12. Check if a set is a superset of another set
+
+13. Check if a set is a superset with comparison operators
+
+14. Is a set a superset of itself?
+
+15. Check if a set is a proper superset of another set
+
+16. Convert a set to a list
+
+17. How can you iterate on values in a set?
+
+18. Return the length of a set
+
+19. Create a set
+
+20. Find the union of 2 sets.
+
+21. Find the intersection of 2 sets
+
+22. Find the elements in s1 that are not in s2
+
+23. Remove an element from a set
+
+24. Remove and return an unspecified element from a set
+
+26. Add all elements from another set to an existing set
+
+27. Remove all elements from a set
+
+28. Remove an element from a set if it exists
+
+29. What is the result of passing a dictionary to a set constructor?
+
+30. Can you zip 2 sets together?
+
+31. Can a set be accessed by index?
+
+32. What is the difference between a set and a tuple?
+
+33. What is the difference between a set and a frozenset?
+
+34. Update a set to equal the intersection of it and another set
+
+35. Remove the intersection of a 2nd set from the 1st set
+
